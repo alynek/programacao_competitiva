@@ -1,13 +1,13 @@
 Enunciado:
         Dado um array de números inteiros, retorne os índices dos dois números que somados, resultem em um certo k inteiro dado
 
-Exemplo de daods de entrada:
+Exemplo de dados de entrada:
         Array de inteiros: [1, 3, 7, 9, 2]
-        um número inteiro positivo e maior que zero qualquer k = 11
+        k = 11
 
         Nesse exemplo, temos que 9 + 2 = 11, 
         então a saída esperada é: [3, 4] 
-        sendo 3 e 4 são os índices dos elemetnos do array 9 e 2 respectivamente
+        sendo 3 e 4 os índices dos elemetnos do array 9 e 2 respectivamente
 
 Analisando as constraints:
         Verificar quais são as constraints do problema, ou seja, descobrir as restrições que o problema tem, vamos fazer algumas perguntas...

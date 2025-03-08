@@ -12,3 +12,8 @@ def two_sum(numeros, k):
 
 two_sum([1, 3, 7, 9, 2], 11)  #saída esperada: 3 4  
 two_sum([1, 3, 7, 9, 2], 25)  
+
+#complexidade de tempo: O(n^2), sendo n o tamanho da lista,
+# isso porque temos 2 for aninhados, onde cada for itera sobre uma lista n etapas
+
+#complexidade  de espaço: O(1), isso porque não temos a criação de nenhuma variável que escala
