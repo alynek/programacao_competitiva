@@ -10,8 +10,10 @@ def two_sum(numeros, k):
 
     return None
 
-two_sum([1, 3, 7, 9, 2], 11)  #saída esperada: 3 4  
-two_sum([1, 3, 7, 9, 2], 25)  
+print(two_sum([1, 3, 7, 9, 2], 11))   #saída esperada: [3 4]
+print(two_sum([1, 3, 7, 9, 2], 25))    #saída esperada: None
+print(two_sum([5], 25))                #saída esperada: None 
+print(two_sum([], 25))                 #saída esperada: None 
 
 #complexidade de tempo: O(n^2), sendo n o tamanho da lista,
 # isso porque temos 2 for aninhados, onde cada for itera sobre uma lista n etapas
