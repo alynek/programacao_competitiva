@@ -10,9 +10,9 @@ def two_sum(numeros, k):
             proximo_item = item + 1                    
 
             if proximo_item < len(numeros):    
-                x = numeros[proximo_item]
-                if x in dictionary:
-                    return [dictionary[x], proximo_item]
+                valor = numeros[proximo_item]
+                if valor in dictionary:
+                    return [dictionary[valor], proximo_item]
 
     return None
 
