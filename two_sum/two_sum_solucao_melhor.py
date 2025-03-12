@@ -4,15 +4,14 @@ def two_sum(numeros, k):
                                                       
         dictionary = {}                                
         
-        for item in range(len(numeros)):                
-            numeroAEncontrar = k - numeros[item]        
-            dictionary[numeroAEncontrar] = item
-            proximo_item = item + 1                    
+        for indice, elemento in enumerate(numeros):    #1, 3, 7, 9, 2
 
-            if proximo_item < len(numeros):    
-                valor = numeros[proximo_item]
-                if valor in dictionary:
-                    return [dictionary[valor], proximo_item]
+
+            if elemento in dictionary:                  
+                return [dictionary[elemento], indice]
+            
+            numeroAEncontrar = k - numeros[indice]      #24, 22, 18, 16, 23
+            dictionary[numeroAEncontrar] = indice        #{ 24:0, 22:1, 18:2, 16:3, 23: 4}
 
     return None
 
