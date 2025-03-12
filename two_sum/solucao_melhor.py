@@ -6,7 +6,6 @@ def two_sum(numeros, k):
         
         for indice, elemento in enumerate(numeros):  
 
-
             if elemento in dicionario_numeros:                  
                 return [dicionario_numeros[elemento], indice]
             
@@ -16,4 +15,4 @@ def two_sum(numeros, k):
     return None
 
 #complexidade de tempo: O(n), sendo n o tamanho da lista
-#complexidade  de espaço: O(1), isso porque não temos a criação de nenhuma variável que escala
+#complexidade  de espaço: O(n), isso porque existe a possibilidade de precisarmos adicionar todos os n-ésimos elementos da nossa lista de n elementos
