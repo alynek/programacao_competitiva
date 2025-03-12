@@ -15,8 +15,5 @@ def two_sum(numeros, k):
 
     return None
 
-print(two_sum([5], 25))                #saída esperada: None 
-print(two_sum([], 25))                 #saída esperada: None 
-
 #complexidade de tempo: O(n), sendo n o tamanho da lista
 #complexidade  de espaço: O(1), isso porque não temos a criação de nenhuma variável que escala
